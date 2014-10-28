@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.apache.cordova.plugins"
+           id="org.apache.cordova"
       version="0.1.0">
     <name>Downloader</name>
     <description>Phonegap Downloader Plugin</description>
@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Downloader">
-                <param name="android-package" value="org.apache.cordova.plugins.Downloader"/>
+                <param name="android-package" value="org.apache.cordova.Downloader"/>
             </feature>
         </config-file>
  
-        <source-file src="src/android/Downloader.java" target-dir="org.apache.cordova.plugins" />      
+        <source-file src="src/android/Downloader.java" target-dir="org.apache.cordova" />      
      </platform>          
 </plugin>
