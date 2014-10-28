@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Downloader">
-                <param name="android-package" value="org.apache.cordova.Downloader"/>
+                <param name="android-package" value="org.apache.cordova.downloader.Downloader"/>
             </feature>
         </config-file>
  
-        <source-file src="src/android/Downloader.java" target-dir="org.apache.cordova" />      
+        <source-file src="src/android/Downloader.java" target-dir="org.apache.cordova.downloader" />      
      </platform>          
 </plugin>
