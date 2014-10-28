@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.apache.cordova"
+           id="org.apache.cordova.downloader"
       version="0.1.0">
     <name>Downloader</name>
     <description>Phonegap Downloader Plugin</description>
@@ -10,7 +10,7 @@
  
  
     <js-module src="www/downloader.js" name="Downloader">
-        <clobbers target="window.pdfcreator" />
+        <clobbers target="window.downloader" />
     </js-module>
  
     <!-- android -->
