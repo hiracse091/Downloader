@@ -21,6 +21,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/Downloader.java" target-dir="org.apache.cordova.downloader" />      
+        <source-file src="src/android/Downloader.java" target-dir="src/org/apache/cordova/downloader" />      
      </platform>          
 </plugin>
