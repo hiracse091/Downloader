@@ -17,7 +17,7 @@
         ); 
      }
 }
-module.exports = hashcreator;
+module.exports = downloader;
 
 
 
